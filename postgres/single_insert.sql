@@ -1,0 +1,44 @@
+-- Single insert:
+INSERT INTO
+    computers (
+        device_type,
+        brand,
+        model,
+        release_year,
+        os,
+        form_factor,
+        cpu_brand,
+        cpu_model,
+        cpu_tier,
+        cpu_cores,
+        cpu_threads,
+        cpu_base_ghz,
+        cpu_boost_ghz,
+        gpu_brand,
+        gpu_model,
+        gpu_tier,
+        vram_gb,
+        ram_gb,
+        price
+    )
+VALUES (
+        'Desktop',
+        'Lenovo',
+        'Lenovo Test',
+        '2025',
+        'Windows',
+        'SFF',
+        'AMD',
+        'AMD Ryzen 5 5168',
+        2,
+        6,
+        16,
+        2.4,
+        3.6,
+        'NVIDIA',
+        'RTX 40 50',
+        1,
+        4,
+        8,
+        1500.99
+    );

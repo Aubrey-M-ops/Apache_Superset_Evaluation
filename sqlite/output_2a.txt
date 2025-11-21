@@ -1,0 +1,2 @@
+select sum(octet_length(price) + octet_length(model) + octet_length(brand)) from (SELECT price, model, brand FROM computers WHERE brand = 'Lenovo' AND model='Lenovo Legion SZI');
+32

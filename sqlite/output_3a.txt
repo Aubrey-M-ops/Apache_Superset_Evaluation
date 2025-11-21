@@ -1,0 +1,2 @@
+select sum(octet_length(model) + octet_length(price)) from (SELECT model, price FROM computers WHERE brand = 'Lenovo' AND price BETWEEN 800 AND 1200 ORDER BY price LIMIT 10000);
+n/a

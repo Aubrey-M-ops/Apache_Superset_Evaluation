@@ -1,0 +1,2 @@
+select sum(octet_length(device_type) + octet_length(brand) + octet_length(model)) from (SELECT device_type, brand, model FROM computers);
+2542361

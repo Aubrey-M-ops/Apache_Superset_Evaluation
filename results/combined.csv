@@ -1,0 +1,55 @@
+query,database,metric,value
+1. Scan (Basic),MySQL,Throughput,416.32
+1. Scan (Basic),MySQL,Latency,2.4
+1. Scan (Basic),MySQL,Size,2542361
+1. Scan (Basic),PostgreSQL,Throughput,114.683792
+1. Scan (Basic),PostgreSQL,Latency,5.758
+1. Scan (Basic),PostgreSQL,Size,6742403
+1. Scan (Basic),SQLite,Throughput,13.55840282
+1. Scan (Basic),SQLite,Latency,73.755
+1. Scan (Basic),SQLite,Size,2542361
+2. Scan (Filter),MySQL,Throughput,626.17
+2. Scan (Filter),MySQL,Latency,1.6
+2. Scan (Filter),MySQL,Size,30
+2. Scan (Filter),PostgreSQL,Throughput,743.887108
+2. Scan (Filter),PostgreSQL,Latency,35.733
+2. Scan (Filter),PostgreSQL,Size,66
+2. Scan (Filter),SQLite,Throughput,38.04161753
+2. Scan (Filter),SQLite,Latency,26.287
+2. Scan (Filter),SQLite,Size,32
+"3. Scan (Filter, Range, Sort)",MySQL,Throughput,673.4
+"3. Scan (Filter, Range, Sort)",MySQL,Latency,1.49
+"3. Scan (Filter, Range, Sort)",MySQL,Size,31196
+"3. Scan (Filter, Range, Sort)",PostgreSQL,Throughput,258.102615
+"3. Scan (Filter, Range, Sort)",PostgreSQL,Latency,40.979
+"3. Scan (Filter, Range, Sort)",PostgreSQL,Size,69017
+"3. Scan (Filter, Range, Sort)",SQLite,Throughput,39.1895599
+"3. Scan (Filter, Range, Sort)",SQLite,Latency,25.517
+"3. Scan (Filter, Range, Sort)",SQLite,Size,0
+4. Aggregate,MySQL,Throughput,353.23
+4. Aggregate,MySQL,Latency,2.83
+4. Aggregate,MySQL,Size,0
+4. Aggregate,PostgreSQL,Throughput,106.389815
+4. Aggregate,PostgreSQL,Latency,66.294
+4. Aggregate,PostgreSQL,Size,0
+4. Aggregate,SQLite,Throughput,14.99587613
+4. Aggregate,SQLite,Latency,66.685
+4. Aggregate,SQLite,Size,0
+5. Insert,MySQL,Throughput,9433.96
+5. Insert,MySQL,Latency,0.106
+5. Insert,MySQL,Size,0
+5. Insert,PostgreSQL,Throughput,30769.23077
+5. Insert,PostgreSQL,Latency,0.248
+5. Insert,PostgreSQL,Size,0
+5. Insert,SQLite,Throughput,69.93985173
+5. Insert,SQLite,Latency,14.298
+5. Insert,SQLite,Size,0
+6. Update,MySQL,Throughput,19.56
+6. Update,MySQL,Latency,51.112
+6. Update,MySQL,Size,0
+6. Update,PostgreSQL,Throughput,0.030325
+6. Update,PostgreSQL,Latency,223.984
+6. Update,PostgreSQL,Size,0
+6. Update,SQLite,Throughput,5.392056422
+6. Update,SQLite,Latency,185.458
+6. Update,SQLite,Size,0

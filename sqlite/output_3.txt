@@ -1,0 +1,2 @@
+SELECT model, price FROM computers WHERE brand = 'Lenovo' AND price BETWEEN 800 AND 1200 ORDER BY price LIMIT 10000;
+Run Time: real 0.025517 user 0.000000 sys 0.015625

@@ -1,0 +1,3 @@
+SELECT price, model, brand FROM computers WHERE brand = 'Lenovo' AND model='Lenovo Legion SZI';
+2045.99|Lenovo Legion SZI|Lenovo
+Run Time: real 0.026287 user 0.031250 sys 0.000000

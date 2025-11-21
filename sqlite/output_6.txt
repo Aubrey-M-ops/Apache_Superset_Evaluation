@@ -1,0 +1,2 @@
+UPDATE computers SET price = price * 0.99 WHERE brand = 'Lenovo';
+Run Time: real 0.185458 user 0.062500 sys 0.093750
